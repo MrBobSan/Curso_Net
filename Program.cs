@@ -24,5 +24,10 @@ class Program
         System.Console.WriteLine(laptop.GetDescription());
         var soporte = new ServiceProduct("Soporte Técnico", 300.99m, 30);
         System.Console.WriteLine(soporte.GetDescription());
+
+        var product = new Product("Mouse Gamer", 290.99m);
+        var productDto = ProductAdapter.ToDto(product);
+        System.Console.WriteLine($"Product DTO - Name: {productDto.Name}, Price: {productDto.Price}, Code: {productDto.Code}");
+
     }
 }

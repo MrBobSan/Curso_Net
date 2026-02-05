@@ -1,3 +1,12 @@
 # Build artifacts
 obj/Debug/net10.0/CsBases.AssemblyInfo.cs
 obj/Debug/net10.0/CsBases.AssemblyInfoInputs.cache
+bin/Debug/net10.0/CsBases.dll
+bin/Debug/net10.0/CsBases.exe
+bin/Debug/net10.0/CsBases.pdb
+obj/Debug/net10.0/CsBases.dll
+obj/Debug/net10.0/CsBases.pdb
+obj/Debug/net10.0/CsBases.sourcelink.json
+obj/Debug/net10.0/apphost.exe
+obj/Debug/net10.0/ref/CsBases.dll
+obj/Debug/net10.0/refint/CsBases.dll
