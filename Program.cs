@@ -38,6 +38,8 @@ class Program
         // manager.PrintLabel(installation);
 
         var firstProduct = await new ProductRepositories().GetProduct(1);
-        System.Console.WriteLine($"Producto obtenido: {firstProduct.Name}, Precio: {firstProduct.Price}");
+        firstProduct.Description = "Este es un producto de prueba";
+        AttributeProcessor.ApplyUpperCase(firstProduct);
+        System.Console.WriteLine($"Producto obtenido: {firstProduct.Name}, Precio: {firstProduct.Price}, Descripción: {firstProduct.Description}");
     }
 }
