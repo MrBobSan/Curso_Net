@@ -12,3 +12,4 @@ C:\Users\dserranoc\Desktop\curso_net\CsBases\obj\Debug\net10.0\refint\CsBases.dl
 C:\Users\dserranoc\Desktop\curso_net\CsBases\obj\Debug\net10.0\CsBases.pdb
 C:\Users\dserranoc\Desktop\curso_net\CsBases\obj\Debug\net10.0\CsBases.genruntimeconfig.cache
 C:\Users\dserranoc\Desktop\curso_net\CsBases\obj\Debug\net10.0\ref\CsBases.dll
+C:\Users\dserranoc\Desktop\curso_net\CsBases\obj\Debug\net10.0\CsBases.sourcelink.json
