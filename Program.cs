@@ -29,5 +29,12 @@ class Program
         var productDto = ProductAdapter.ToDto(product);
         System.Console.WriteLine($"Product DTO - Name: {productDto.Name}, Price: {productDto.Price}, Code: {productDto.Code}");
 
+        // Inyeccion de dependencias
+        ILabelService labelService = new LabelService();
+        var manager = new ProductManager(labelService);
+        var monitor = new Product("Monitor", 199.99m);
+        var installation = new ServiceProduct("Instalación", 50.00m, 30);
+        manager.PrintLabel(monitor);
+        manager.PrintLabel(installation);
     }
 }
